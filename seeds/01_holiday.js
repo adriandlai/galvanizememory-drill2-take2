@@ -8,6 +8,3 @@ exports.seed = function(knex, Promise) {
       return knex('drinks_tb').insert(drinks)
     });
 };
-
-
-
