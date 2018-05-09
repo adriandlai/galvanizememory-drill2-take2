@@ -1,0 +1,33 @@
+{
+  "name": "drill-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriandlai/galvanizememory-drill2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriandlai/galvanizememory-drill2/issues"
+  },
+  "homepage": "https://github.com/adriandlai/galvanizememory-drill2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "mocha": "^5.1.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.4",
+    "supertest": "^3.0.0"
+  }
+}
